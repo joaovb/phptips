@@ -1,0 +1,28 @@
+{
+    "name": "joaovb/phptips001",
+    "description": "Conhecendo o Composer e Configurando IDE | PHP Tips #001",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "João Victor Barreto",
+            "email": "joaovictor.hts@gmail.com",
+            "role": "Developer",
+            "homepage": "https://github.com/joaovb"
+        }
+    ],
+    "config":{
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "1.1.2"
+    }
+}
